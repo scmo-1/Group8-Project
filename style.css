@@ -19,7 +19,7 @@ main {
     background-color: rgb(155, 240, 240);
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     grid-template-rows: auto;
     gap: 1em;
     margin: 1em;
@@ -56,3 +56,4 @@ footer {
     background-color: rgb(155, 155, 255);
 }
 /* Hello */
+/* jävla github*/
