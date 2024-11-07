@@ -16,10 +16,9 @@ nav {
 }
 
 main {
-    background-color: rgb(155, 240, 240);
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: auto;
     gap: 1em;
     margin: 1em;
@@ -27,8 +26,20 @@ main {
 }
 
 .about-section {
-
+    border: solid 1px black;
 }
+
+.event-container {
+    border: solid 1px black;
+}
+
+.books-container {
+    border: solid 1px black;
+}
+
+
+
+
 .event-article {
     border: 1px solid black;
 }
@@ -42,6 +53,13 @@ main {
 .contact-section {
     border: solid 1px black;
 }
+.books-wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+}
+
+
 
 
 
@@ -56,3 +74,4 @@ footer {
     background-color: rgb(155, 155, 255);
 }
 /* Hello */
+
