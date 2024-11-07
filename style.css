@@ -30,7 +30,67 @@ main {
 }
 
 .event-container {
-    border: solid 1px black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    font-family: "Nunito", sans-serif;
+    row-gap: 20px;
+}
+
+.event-container h3 {
+    font-size: 1.3em;
+    font-weight: 800;
+    margin-bottom: -10px;
+    justify-self: start;
+}
+
+.event-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 3%;
+    border-radius: 4%;
+    font-size: 1rem;
+    box-shadow: 0px 0px 20px 2px rgb(0 0 0 / 25%);
+    overflow: hidden;
+}
+
+.event-article img {
+    width: 100%;
+}
+
+.event-article-first-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 6%;
+}
+
+.event-container h4 {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.event-date {
+    color: #8E8C8C;
+}
+
+.event-description {
+    margin: 0 6%;
+}
+
+.more-info-button {
+    width: 178px;
+    height: 45px;
+    background-color: #dd4178;
+    border-style: none;
+    border-radius: 16.94px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    align-self: center;
+    margin-top: 5%;
 }
 
 .books-container {
@@ -74,4 +134,3 @@ footer {
     background-color: rgb(155, 155, 255);
 }
 /* Hello */
-
