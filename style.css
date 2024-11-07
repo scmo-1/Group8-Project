@@ -3,3 +3,26 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    width: 100%;
+}
+
+header {
+    background-color: gray;
+}
+nav {
+    background-color: rgb(201, 123, 123);
+}
+
+main {
+    background-color: aqua;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+}
+footer {
+    background-color: rgb(155, 155, 255);
+}
