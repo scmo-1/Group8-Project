@@ -16,13 +16,42 @@ nav {
 }
 
 main {
-    background-color: aqua;
+    background-color: rgb(155, 240, 240);
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    gap: 1em;
+    margin: 1em;
 
 }
+
+.about-section {
+
+}
+.event-article {
+    border: 1px solid black;
+}
+.news-section {
+    border: solid 1px black;
+}
+.book-article {
+    border: solid 1px black;
+}
+
+.contact-section {
+    border: solid 1px black;
+}
+
+
+
+
+
+
+
+
+
+
 footer {
     background-color: rgb(155, 155, 255);
 }
