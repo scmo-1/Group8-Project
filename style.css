@@ -36,7 +36,6 @@ main {
 }
 .about-section > h2 {
     align-self: flex-start;
-    margin-top: em;
     font-size: 2rem;
 }
 
