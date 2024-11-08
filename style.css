@@ -25,89 +25,82 @@ main {
 
 }
 
-.about-section {
-    border: solid 1px black;
-}
-
-.event-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    font-family: "Nunito", sans-serif;
-    row-gap: 20px;
-}
-
-.event-container h3 {
-    font-size: 1.3em;
-    font-weight: 800;
-    margin-bottom: -10px;
-    justify-self: start;
-}
-
-.event-article {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    padding-bottom: 3%;
-    border-radius: 4%;
-    font-size: 1rem;
-    box-shadow: 0px 0px 20px 2px rgb(0 0 0 / 25%);
-    overflow: hidden;
-}
-
-.event-article img {
-    width: 100%;
-}
-
-.event-article-first-row {
-    display: flex;
-    justify-content: space-between;
-    margin: 5% 6%;
-}
-
-.event-container h4 {
-    font-size: 1.2rem;
-    font-weight: 800;
-}
-
-.event-date {
-    color: #8E8C8C;
-}
-
-.event-description {
-    margin: 0 6%;
-}
-
-.more-info-button {
-    width: 178px;
-    height: 45px;
-    background-color: #dd4178;
-    border-style: none;
-    border-radius: 16.94px;
-    font-size: 1em;
-    font-weight: bold;
-    color: white;
-    font-family: "Nunito", sans-serif;
-    align-self: center;
-    margin-top: 5%;
-}
-
-.books-container {
-    border: solid 1px black;
-}
-
-
-
-
 .event-article {
     border: 1px solid black;
 }
 .news-section {
     border: solid 1px black;
 }
+.book-section {
+   padding: 1em;
+}
+
+.book-section h2{
+  font-size: 1.2em;
+  margin-bottom: 1em;
+
+
+}
+                     /* Margin bängade ner sig, hittade till slut hur det skulle vara för och få dom i mitten  */
 .book-article {
-    border: solid 1px black;
+
+ width: 100%;    
+ max-width: 200px;
+ margin: 0 auto 1em;
+    background-color: rgb(201, 123, 123);
+   
+ border-radius: 10px;
+ box-shadow: 0 4px 8px rgb(0,0,0,0.5); /* 1; horizontal offset  2; vertikal offset   3; Blur radius   4; skuggfärg/opacity Eventuellt 0.2 bättre här, för hårda skuggor med 0.5?*/
+ overflow: hidden; /* klippa bort överflödigt content , bokstäverna hamnade utanför när man rundade hörnen*/
+ background-color: rgb(255, 255, 255);
+
+}
+
+
+.book-image img {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+        /*object-fit: cover;  propotionellt anpassa bilden efter ''lådan''*/
+        border-radius: 10px;
+    border: solid 2px white;
+    box-shadow: 0 4px 8px black;
+
+    
+}
+.Book-info{
+    padding: 1em;
+    text-align: center;
+}
+.Book-info h3{
+    font-size: 1em;
+    margin: 0.5em 0 0.2em;
+
+}
+.Book-info p{
+    font-size: 1em;
+margin: 0.5em 0 0.2em;
+text-decoration: underline;
+}
+.Book-info span{
+    font-size:1 ;
+    
+}/* Wtf kan inte ändra på fonten i span, glöm inte kolla det imorgon*/
+.Book-info button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #ff6b81;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+.Book-info button:hover {
+    background-color: #ff5066;
 }
 
 .books-wrapper {
@@ -196,4 +189,4 @@ form > input:focus, textarea:focus {
 
 footer {
     background-color: rgb(155, 155, 255);
-}
+
