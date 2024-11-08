@@ -5,28 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title> Pärmar & Poesi </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
     <header> header </header>
     <nav> nav </nav>
     <main>
+
+
+
+
         <section class="about-section"> 
-            <h1> Om oss </h1>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laboriosam nulla, quia ut ea sequi debitis facere nam dolorem omnis.</p>
             bild
+            <h2> Om oss </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laboriosam nulla, quia ut ea sequi debitis facere nam dolorem omnis.</p>
         </section>
+
+
+
         
-        <article class="event-article"> Event </article> 
-        <article class="event-article"> Event </article> 
+        <div class="event-container">
+            <h3> Kommande evenemang </h3>
+            <article class="event-article">
+                <img src="books-mobile.png" alt="An open book" />
+                <div class="event-article-first-row">
+                    <h4>Föreläsning</h4>
+                    <p class="event-date">2024/11/20</p>
+                </div>
+                <p class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta voluptatem ipsum, libero assumenda delectus...</p>
+                <button class="more-info-button">Mer information</button>
+            </article> 
+            <article class="event-article"> 
+                <img src="book-mobile.png" alt="An open book" />
+                <div class="event-article-first-row">
+                    <h4>Poesiläsning</h4>
+                    <p class="event-date">2024/12/07</p>
+                </div>
+                <p class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta corporis distinctio vel necessitatibus quidem ea...</p>
+                <button class="more-info-button">Mer information</button>
+            </article> 
+        </div>
+        
 
 
-        <section class="news-section"> 
-            Aktuellt
-            Aktuellt
-            Aktuellt
-            Aktuellt 
+
+        <section class="news-section">
+            <h3> Aktuellt </h3> 
+            <article class="news-item"> 
+                <p> Lorem </p>
+                <button> Button </button>
+            </article>
+            <article class="news-item">
+                <p> Lorem </p>
+                <button> button </button>
+            </article>
         </section>
-
+      
+      
+      
+      
+      
+      
         <section class="book-section">
 
          <h2> Veckans boktips!</h2>
@@ -93,9 +137,61 @@
         </article>
 
         </section>
+      
 
 
-        <section class="contact-section"> Kontakta oss </section>
+
+        <section class="contact-section">
+            <h3> Kontakta oss </h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos sit nemo ipsum quam in laboriosam, porro recusandae corporis quibusdam?</p>
+            <form action="#" method="post">
+                <label for="namn"> Fullständiga namn </label>
+                <input type="text" name="namn" placeholder="Fullständiga namn" required>
+
+                <label for="mail"> Mailadress </label>
+                <input type="email" name="mail" placeholder="Mailadress" required>
+
+                <label for="number"> Telefonnummer </label>
+                <input type="number" name="telnummer" placeholder="Telefonnummer">
+
+                <label for="meddelande"> Meddelande </label>
+                <textarea name="meddelande">  </textarea>
+
+                <button type="submit"> Skicka </button>
+            </form>
+            <img src="images/email-campaign/pana.png" alt="En tecknad bild på en figur och brev">
+        </section>
+      
+      
+            
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
      </main>
      <footer> footer </footer>
 
