@@ -102,21 +102,25 @@
 
 
 
-        <section class="contact-section"> 
-            <h3> Kontakta oss! </h3>
+        <section class="contact-section">
+            <h3> Kontakta oss </h3>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos sit nemo ipsum quam in laboriosam, porro recusandae corporis quibusdam?</p>
-            <label for="namn"> Fullständiga namn </label>
-            <input type="text" name="namn" placeholder="Fullständiga namn">
+            <form action="#" method="post">
+                <label for="namn"> Fullständiga namn </label>
+                <input type="text" name="namn" placeholder="Fullständiga namn" required>
 
-            <label for="mail"> Mailadress </label>
-            <input type="email" name="mail" placeholder="Mailadress">
+                <label for="mail"> Mailadress </label>
+                <input type="email" name="mail" placeholder="Mailadress" required>
 
-            <label for="number"> Telefonnummer </label>
-            <input type="number" name="telnummer" placeholder="Telefonnummer">
+                <label for="number"> Telefonnummer </label>
+                <input type="number" name="telnummer" placeholder="Telefonnummer">
 
-            <label for="meddelande"> Meddelande </label>
-            <textarea name="meddelande">  </textarea>
+                <label for="meddelande"> Meddelande </label>
+                <textarea name="meddelande">  </textarea>
 
+                <button type="submit"> Skicka </button>
+            </form>
+            <img src="images/email-campaign/pana.png" alt="En tecknad bild på en figur och brev">
         </section>
      </main>
      <footer> footer </footer>
