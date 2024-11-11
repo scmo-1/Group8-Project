@@ -6,6 +6,7 @@
 
 body {
     width: 100%;
+    font-family: "Nunito", sans-serif;
 }
 
 header {
@@ -44,7 +45,6 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    font-family: "Nunito", sans-serif;
     row-gap: 20px;
 }
 
@@ -99,7 +99,6 @@ main {
     font-size: 1em;
     font-weight: bold;
     color: white;
-    font-family: "Nunito", sans-serif;
     align-self: center;
     margin-top: 5%;
 }
