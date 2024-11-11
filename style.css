@@ -12,6 +12,10 @@ body {
 header {
     background-color: gray;
 }
+header > a {
+    display: none;
+}
+
 nav {
     background-color: rgb(201, 123, 123);
 }
@@ -319,4 +323,43 @@ form > input:focus, textarea:focus {
 footer {
     background-color: rgb(155, 155, 255);
 
+}
+
+
+
+
+@media screen and (min-width:600px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    .about-section {
+        grid-column: span 2;
+    }
+    .event-container {
+        grid-column: span 2;
+        gap: 1em;
+    }
+    .event-container h3 {
+        grid-column: span 2;
+    }
+    .event-article {
+        grid-column: span 1;
+    }
+
+
+
+    .book-section {
+        grid-column: span 1;
+    }
+    .news-section {
+        grid-column: span 1;
+    }
+    .contact-section {
+        grid-column: span 2;
+    }
+
+
+    
 }
