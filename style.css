@@ -51,7 +51,7 @@ main {
     width: 100%;
     padding-bottom: 3%;
     border-radius: 4%;
-    font-size: 1rem;
+    font-size: 1em;
     box-shadow: 0px 0px 20px 2px rgb(0 0 0 / 25%);
     overflow: hidden;
 }
@@ -103,9 +103,47 @@ main {
 
 
 .news-section {
-    border: solid 1px black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    font-family: "Nunito", sans-serif;
+    margin: 12% -1em;
+}
+.news-section h3 {
+    font-size: 1.3em;
+    font-weight: 800;
+    padding: 0 4%;
 }
 
+.news-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 1em;
+    background-color: #F7F7F7;
+    padding: 3% 4%;
+}
+
+.news-item h4 {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+
+.news-item button {
+    width: 294px;
+    height: 45px;
+    background-color: #dd4178;
+    border-style: none;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    align-self: center;
+    margin-top: 4%;
+}
 
 
 
