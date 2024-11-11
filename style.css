@@ -26,8 +26,13 @@ main {
     grid-template-columns: auto;
     grid-template-rows: auto;
     gap: 1em;
-    margin: 1em;
+    width: 100%;
+    padding: 5%;
 
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .about-section {
@@ -95,7 +100,7 @@ main {
 }
 
 .more-info-button {
-    width: 178px;
+    width: 60%;
     height: 45px;
     background-color: #dd4178;
     border-style: none;
@@ -121,7 +126,6 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     font-family: "Nunito", sans-serif;
-    margin: 12% -1em;
 }
 .news-section h3 {
     font-size: 1.3em;
@@ -146,7 +150,7 @@ main {
 }
 
 .news-item button {
-    width: 294px;
+    width: 40%;
     height: 45px;
     background-color: #dd4178;
     border-style: none;
@@ -276,7 +280,7 @@ form {
     width: 100%;
 }
 .contact-section > p {
-    width: 20em;
+    width: 100%;
 }
 form > input{
     width: 100%;
@@ -299,7 +303,7 @@ form > textarea {
     transition: border-color 0.3s;
 }
 form > button {
-    width: 15em;
+    width: 50%;
     height: 60px;
     margin: 1.5em;
     border-radius: 15px;
@@ -329,10 +333,14 @@ footer {
 
 
 @media screen and (min-width:600px) {
+
     main {
+        width: 75%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
+        margin: auto;
+        
     }
     .about-section {
         grid-column: span 2;
@@ -340,12 +348,14 @@ footer {
     .event-container {
         grid-column: span 2;
         gap: 1em;
+        grid-template-columns: 1fr 1fr;
     }
     .event-container h3 {
         grid-column: span 2;
     }
     .event-article {
         grid-column: span 1;
+        width: 50%;
     }
 
 
@@ -358,7 +368,18 @@ footer {
     }
     .contact-section {
         grid-column: span 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
+    .contact-section h3, p {
+        grid-column: span 2;
+    }
+    .contact-section img {
+        width: 500px;
+        height: auto;
+    }
+ 
+
 
 
     
