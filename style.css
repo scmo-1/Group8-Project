@@ -190,6 +190,8 @@ img {
 
 .book-section {
    padding: 1em;
+   display: grid;
+   grid-template-columns:repeat(2, 1fr)
 }
 
 .book-section h2{
@@ -227,6 +229,7 @@ img {
     
 }
 .Book-info{
+  display: grid;
     padding: 1em;
     text-align: center;
 }
@@ -245,7 +248,8 @@ text-decoration: underline;
     
 }/* Wtf kan inte ändra på fonten i span, glöm inte kolla det imorgon*/
 .Book-info button {
-    margin-top: 1em;
+
+     
     padding: 0.5em 1em;
     background-color: #ff6b81;
     color: rgb(0, 0, 0);
@@ -258,6 +262,7 @@ text-decoration: underline;
 }
 .Book-info button:hover {
     background-color: #ff5066;
+    
 }
 
 .books-wrapper {
@@ -344,7 +349,9 @@ form > input:focus, textarea:focus {
 
 
 
+
 footer {
+
     background-color: rgb(155, 155, 255);
 
 }
@@ -352,55 +359,57 @@ footer {
 
 
 
-@media screen and (min-width:600px) {
-
-    main {  
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        margin: auto;
-        
-    }
-    .about-section {
-        grid-column: span 2;
-    }
-    .event-container {
-        grid-column: span 2;
-        gap: 1em;
-        grid-template-columns: 1fr 1fr;
-    }
-    .event-container h3 {
-        grid-column: span 2;
-    }
-    .event-article {
-        grid-column: span 1;
-        width: 100%;
-    }
-
-
-
-    .book-section {
-        grid-column: span 1;
-    }
-    .news-section {
-        grid-column: span 1;
-    }
-    .contact-section {
-        grid-column: span 2;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .contact-section h3, p {
-        grid-column: span 2;
-    }
-    .contact-section img {
-        width: 500px;
-        height: auto;
-    }
 
  
 
-
-
-    
+    display: grid;
+    background-color: #8A1313;
+    width: 100%;
+    height: 30em;
+    gap: 20px;
 }
+
+
+.social-media {
+    padding-top: 15px;
+    height: 9em;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.social-media p {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.social-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-icon {
+    font-size: 2.5em;
+    color: white;
+}
+
+
+.footer-info {
+    display: grid;
+    grid-template-rows: repeat(4, 50px);
+    color: white;
+    font-size: x-large;
+    padding-left: 1.5em;
+    height: fit-content;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #690C0C;
+    font-style: bold;
+}
+
