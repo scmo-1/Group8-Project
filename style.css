@@ -97,11 +97,11 @@ img {
 
 .event-article img {
     width: 100%;
-    max-height: 40%; /*bilderna är olika stora. Max height behövs för att de ska bli lika */
 }
 
 .event-article-first-row {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin: 5% 6%;
 }
