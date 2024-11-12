@@ -10,10 +10,33 @@ body {
 }
 
 header {
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: end;
+    
 }
+
+.header-logo {
+    height: 70%;
+    margin: 8px;
+}
+
+
 nav {
-    background-color: rgb(201, 123, 123);
+    background-color: #8A1313;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
 }
 
 main {
@@ -22,8 +45,13 @@ main {
     grid-template-columns: auto;
     grid-template-rows: auto;
     gap: 1em;
-    margin: 1em;
+    width: 100%;
+    padding: 5%;
 
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .about-section {
@@ -64,11 +92,12 @@ main {
     border-radius: 4%;
     font-size: 1em;
     box-shadow: 0px 0px 20px 2px rgb(0 0 0 / 25%);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .event-article img {
     width: 100%;
+    max-height: 40%; /*bilderna är olika stora. Max height behövs för att de ska bli lika */
 }
 
 .event-article-first-row {
@@ -91,7 +120,7 @@ main {
 }
 
 .more-info-button {
-    width: 178px;
+    width: 60%;
     height: 45px;
     background-color: #dd4178;
     border-style: none;
@@ -103,9 +132,9 @@ main {
     margin-top: 5%;
 }
 
-.books-container {
+/* .books-container {
     border: solid 1px black;
-}
+} */
 
 
 
@@ -117,7 +146,6 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     font-family: "Nunito", sans-serif;
-    margin: 12% -1em;
 }
 .news-section h3 {
     font-size: 1.3em;
@@ -142,7 +170,7 @@ main {
 }
 
 .news-item button {
-    width: 294px;
+    width: 40%;
     height: 45px;
     background-color: #dd4178;
     border-style: none;
@@ -277,7 +305,7 @@ form {
     width: 100%;
 }
 .contact-section > p {
-    width: 20em;
+    width: 100%;
 }
 form > input{
     width: 100%;
@@ -300,7 +328,7 @@ form > textarea {
     transition: border-color 0.3s;
 }
 form > button {
-    width: 15em;
+    width: 50%;
     height: 60px;
     margin: 1.5em;
     border-radius: 15px;
@@ -373,5 +401,4 @@ footer {
     background-color: #690C0C;
     font-style: bold;
 }
-
 
