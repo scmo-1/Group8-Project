@@ -103,7 +103,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 5% 6%;
+    margin: 4% 6%;
 }
 
 .event-container h4 {
@@ -436,8 +436,12 @@ footer {
         justify-content: start;
     }
 
+    .event-description {
+        margin: 0 6% 8% 6%;
+    }
+
     .event-article p {
-        max-width:70%;
+        max-width: 80%;
     }
 
     .dots {
