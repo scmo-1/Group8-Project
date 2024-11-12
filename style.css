@@ -424,7 +424,7 @@ footer {
     }
     .event-container {
         grid-column: span 2;
-        gap: 1em;
+        gap: 2em;
         grid-template-columns: 1fr 1fr;
     }
     .event-container h3 {
@@ -434,6 +434,12 @@ footer {
         grid-column: span 1;
         width: 100%;
         justify-content: start;
+    }
+
+    .event-article:hover {
+        cursor: pointer;
+        scale: 1.03;
+        transition: 0.3s;
     }
 
     .event-description {
