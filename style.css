@@ -352,7 +352,7 @@ footer {
 
 
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:550px) {
 
     main {  
         display: grid;
@@ -397,6 +397,7 @@ footer {
         width: 500px;
         height: auto;
     }
+
  
 
 
