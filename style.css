@@ -92,7 +92,7 @@ img {
     border-radius: 4%;
     font-size: 1em;
     box-shadow: 0px 0px 20px 2px rgb(0 0 0 / 25%);
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .event-article img {
@@ -109,6 +109,10 @@ img {
 .event-container h4 {
     font-size: 1.2rem;
     font-weight: 800;
+}
+
+.text-extension {
+    display: none;
 }
 
 .event-date {
@@ -429,7 +433,25 @@ footer {
     .event-article {
         grid-column: span 1;
         width: 100%;
+        justify-content: start;
     }
+
+    .event-article p {
+        max-width:70%;
+    }
+
+    .dots {
+        display: none;
+    }
+
+    .text-extension {
+        display: inline;
+    }
+
+    .more-info-button {
+        display: none;
+    }
+
     .book-section {
         grid-column: 1 / 2;
         grid-row: 3 / 5;
