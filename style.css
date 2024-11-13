@@ -143,9 +143,7 @@ img {
     margin-top: 5%;
 }
 
-/* .books-container {
-    border: solid 1px black;
-} */
+
 
 
 
@@ -194,93 +192,105 @@ img {
     margin-top: 4%;
 }
 
-
-
-
-
-
 .book-section {
-   padding: 1em;
-   display: grid;
-   grid-template-columns:repeat(2, 1fr)
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 1fr;
+    gap: 1em;
 }
 
-.book-section h2{
-  font-size: 1.2em;
-  margin-bottom: 1em;
-
-
+.book-section h3 {
+    grid-column: span 2;
 }
-                     /* Margin bängade ner sig, hittade till slut hur det skulle vara för och få dom i mitten  */
+.image-container {
+    height: 60%;
+    align-self: center;
+    margin-bottom: 7%;
+}
+.image-container img {
+    height: 100%;
+    border-radius: 10px;
+}
 .book-article {
-
- width: 100%;    
- max-width: 200px;
- margin: 0 auto 1em;
-    background-color: rgb(201, 123, 123);
-   
- border-radius: 10px;
- box-shadow: 0 4px 8px rgb(0,0,0,0.5); /* 1; horizontal offset  2; vertikal offset   3; Blur radius   4; skuggfärg/opacity Eventuellt 0.2 bättre här, för hårda skuggor med 0.5?*/
- overflow: hidden; /* klippa bort överflödigt content , bokstäverna hamnade utanför när man rundade hörnen*/
- background-color: rgb(255, 255, 255);
-
-}
-
-
-.book-image img {
-    width: 80%;
-    height: 80%;
-    margin-left: 10%;
-    margin-top: 10%;
-        /*object-fit: cover;  propotionellt anpassa bilden efter ''lådan''*/
-        border-radius: 10px;
-    border: solid 2px white;
-    box-shadow: 0 4px 8px black;
-
-    
-}
-.Book-info{
+    height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 7%;
-    background-color: aqua;
-    height: 100%;
+    padding: 5%;
+    justify-content: space-between;
+    box-shadow: 0 0 1em rgb(161, 161, 161);
+    border-radius: 15px;
 }
-.Book-info h3{
+.book-article button {
+    border-style: none;
+    height: 42px;
+    background-color: #DD4178;
+    color: white;
+    border-radius: 15px;
     font-size: 1em;
-    margin: 0.5em 0 0.2em;
+    /* margin: 5%; */
+}
+.book-article h4 {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .book-section {
+    height: 1000px;
+    padding: 1em;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 2%;
+}
+
+.book-section h3{
+    grid-column: 1 / 3;
 
 }
-.Book-info p{
-    font-size: 1em;
-    /* margin: 0.5em 0 0.2em; */
-    text-decoration: underline;
+                    
+.book-article {
+    height: auto;
+    width: 100%;    
+    max-width: 200px;
+    margin: 0 auto 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.5); 
+    overflow: hidden; 
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+
 }
-/* .Book-info span{
-    font-size:1 ;
-    
-} */
-.Book-info button {
+
+.book-article button {
     height: 42px;
+    width: 100%;
     border-style: none;
-    background-color: #ff6b81;
+    background-color: #dd4178;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     cursor: pointer;
-    font-size: 0.9em;
+    font-size: 1em;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    
-}
-/* .Book-info button:hover {
-    background-color: #ff5066;
-    
+    justify-content: flex-end;
 } */
 
-.books-wrapper {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5em;
-}
 
 
 
