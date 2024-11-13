@@ -97,13 +97,13 @@ img {
 
 .event-article img {
     width: 100%;
-    max-height: 40%; /*bilderna är olika stora. Max height behövs för att de ska bli lika */
 }
 
 .event-article-first-row {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    margin: 5% 6%;
+    margin: 4% 6%;
 }
 
 .event-container h4 {
@@ -446,7 +446,7 @@ footer {
 
     .event-container {
         grid-column: span 2;
-        gap: 1em;
+        gap: 2em;
         grid-template-columns: 1fr 1fr;
     }
     .event-container h3 {
@@ -458,8 +458,18 @@ footer {
         justify-content: start;
     }
 
+    .event-article:hover {
+        cursor: pointer;
+        scale: 1.03;
+        transition: 0.3s;
+    }
+
+    .event-description {
+        margin: 0 6% 8% 6%;
+    }
+
     .event-article p {
-        max-width:70%;
+        max-width: 80%;
     }
 
     .dots {
