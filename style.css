@@ -49,7 +49,7 @@ nav a {
 }
 
 main {
-margin-top: 60%;
+  margin-top: 60%;
   min-height: 100vh;
   display: grid;
   grid-template-columns: auto;
@@ -70,8 +70,8 @@ img {
   margin-bottom: 8em;
 }
 .about-section > figure {
-    height: 80%;
-    width: 80%;
+  height: 80%;
+  width: 80%;
 }
 .about-section > h2 {
   align-self: flex-start;
@@ -256,6 +256,7 @@ form {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding: 7%;
 }
 .contact-section > p {
   width: 100%;
@@ -300,7 +301,6 @@ textarea:focus {
 }
 
 footer {
-  /* display: grid; */
   background-color: #8a1313;
   width: 100%;
   height: 30em;
@@ -332,19 +332,20 @@ footer {
 }
 
 .footer-info {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .footer-info a {
-    display: inline;
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    margin: auto;
-    padding: 15px;
-  }
+  display: inline;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: auto;
+  padding: 15px;
+}
 
 .copyright {
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -461,9 +462,10 @@ footer {
     display: flex;
     flex-direction: column;
     max-width: 100%;
+    height: fit-content;
   }
   .book-article {
-    height: 15%;
+    height: 400px;
     width: 100%;
     flex-direction: row;
     justify-content: center;
@@ -527,6 +529,8 @@ footer {
     grid-column: span 2;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 10%;
+    margin-top: 15%;
   }
 
   .contact-section h3,
@@ -555,5 +559,4 @@ footer {
     justify-content: center;
     align-items: center;
   }
-
 }
