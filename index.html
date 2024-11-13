@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title> Pärmar & Poesi </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pärmar & Poesi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,240 +16,242 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
-</head>
-<body>
-
-    <header><img class="header-logo" src="images/Logga.png" alt="Logo">
-        <a class="header-nav-link" href="#event">Evenemang</a>
-        <a class="header-nav-link" href="#tips">Boktips</a>
-        <a class="header-nav-link" href="#news">Aktuellt</a>
-        <a class="header-nav-link" href="#contact">Kontakt</a>
+  </head>
+  <body>
+    <header>
+      <img class="header-logo" src="images/Logga.png" alt="An logo of Pärmar & Poesi" />
+      <a class="header-nav-link" href="#event">Evenemang</a>
+      <a class="header-nav-link" href="#tips">Boktips</a>
+      <a class="header-nav-link" href="#news">Aktuellt</a>
+      <a class="header-nav-link" href="#contact">Kontakt</a>
     </header>
     <nav>
-        <a href="#event">Evenemang</a>
-        <a href="#news">Aktuellt</a>
-        <a href="#tips">Boktips</a>
-        <a href="#contact">Kontakt</a>
+      <a href="#event">Evenemang</a>
+      <a href="#news">Aktuellt</a>
+      <a href="#tips">Boktips</a>
+      <a href="#contact">Kontakt</a>
     </nav>
 
     <main>
+      <section class="about-section">
+        <figure>
+          <img src="images/book-store-image.png" alt="An illustration of a book store" />
+        </figure>
+        <h2>Om oss</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          laboriosam nulla, quia ut ea sequi debitis facere nam dolorem omnis.
+        </p>
+      </section>
 
+      <div class="event-container">
+        <h3 id="event">Kommande evenemang</h3>
+        <article class="event-article">
+          <img
+            src="images/event-article/books-desktop.png"
+            alt="An image of a collection of books"
+          />
+          <div class="event-article-first-row">
+            <h4>Föreläsning</h4>
+            <p class="event-date">2024/11/20</p>
+          </div>
+          <p class="event-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            soluta voluptatem ipsum, libero assumenda delectus<span class="dots"
+              >...</span
+            ><span class="text-extension">
+              doloribus alias! Nam dolorum porro reiciendis, ipsam recusandae
+              rem quia voluptas ullam quae at, alias, laboriosam sunt
+              consequatur.</span
+            >
+          </p>
+          <button class="more-info-button">Mer information</button>
+        </article>
+        <article class="event-article">
+          <img src="images/event-article/book-desktop.png" alt="An image of an open book" />
+          <div class="event-article-first-row">
+            <h4>Poesiläsning</h4>
+            <p class="event-date">2024/12/07</p>
+          </div>
+          <p class="event-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            soluta voluptatem ipsum, libero assumenda delectus<span class="dots"
+              >...</span
+            ><span class="text-extension">
+              doloribus alias! Nam dolorum porro reiciendis, ipsam recusandae
+              rem quia voluptas ullam quae at, alias, laboriosam sunt
+              consequatur.</span
+            >
+          </p>
+          <button class="more-info-button">Mer information</button>
+        </article>
+      </div>
 
+      <section class="news-section">
+        <h3 id="news">Aktuellt</h3>
+        <article class="news-item">
+          <h4>Lorem</h4>
+          <p class="event-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            soluta voluptatem<span class="dots">...</span
+            ><span class="text-extension">
+              doloribus alias! Nam dolorum porro reiciendis, ipsam recusandae
+              rem quia voluptas ullam quae at, alias, laboriosam sunt
+              consequatur.</span
+            >
+          </p>
+          <button>Läs mer</button>
+        </article>
+        <article class="news-item">
+          <h4>Lorem</h4>
+          <p class="event-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            soluta voluptatem<span class="dots">...</span
+            ><span class="text-extension">
+              doloribus alias! Nam dolorum porro reiciendis, ipsam recusandae
+              rem quia voluptas ullam quae at, alias, laboriosam sunt
+              consequatur.</span
+            >
+          </p>
+          <button>Läs mer</button>
+        </article>
+      </section>
+      <section class="book-section">
+        <h3 id="tips">Veckans boktips</h3>
 
-
-        <section class="about-section"> 
-            <figure>
-                <img src="images/book-store-image.png" alt="">
-            </figure>
-            <h2> Om oss </h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laboriosam nulla, quia ut ea sequi debitis facere nam dolorem omnis.</p>
-        </section>
-
-
-
-        
-        <div class="event-container">
-            <h3 id="event"> Kommande evenemang </h3>
-            <article class="event-article">
-                <img src="images/event-article/books-desktop.png" alt="An open book" />
-                <div class="event-article-first-row">
-                    <h4>Föreläsning</h4>
-                    <p class="event-date">2024/11/20</p>
-                </div>
-                <p class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta voluptatem ipsum, libero assumenda delectus<span class="dots">...</span><span class="text-extension"> doloribus alias! Nam dolorum porro reiciendis, ipsam recusandae rem quia voluptas ullam quae at, alias, laboriosam sunt consequatur.</span></p>
-                <button class="more-info-button">Mer information</button>
-            </article> 
-            <article class="event-article"> 
-                <img src="images/event-article/book-desktop.png" alt="An open book" />
-                <div class="event-article-first-row">
-                    <h4>Poesiläsning</h4>
-                    <p class="event-date">2024/12/07</p>
-                </div>
-                <p class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta voluptatem ipsum, libero assumenda delectus<span class="dots">...</span><span class="text-extension"> doloribus alias! Nam dolorum porro reiciendis, ipsam recusandae rem quia voluptas ullam quae at, alias, laboriosam sunt consequatur.</span></p>
-                <button class="more-info-button">Mer information</button>
-            </article> 
-        </div>
-        
-
-
-
-        <section class="news-section">
-            <h3 id="news">Aktuellt</h3> 
-            <article class="news-item"> 
-                <h4>Lorem</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, voluptas dolore...</p>
-                <button>Läs mer</button>
-            </article>
-            <article class="news-item">
-                <h4>Lorem</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, esse doloribus...</p>
-                <button> Läs mer </button> <!-- ändrade texten från button till läs mer-->
-            </article>
-        </section>
-      
-      
-      
-      
-      
-        
-        <section class="book-section">
-            <h2 id="tips"> Veckans boktips!</h2>
-
-         <article class="book-article">  
-                <figure class=" book-image"> 
-                 <img src="https://www.sfbok.se/sites/default/files/styles/1000x/sfbok/sfbokbilder/156/156972.jpg?bust=1472653979&itok=F--oGftS" alt="Book art">
-
-                </figure>  
-                 <!--Bild på boken-->
-                <div class="Book-info">
-                    <h3>The blade itself</h3>
-                    <p>Joe Abercrombie</p>
-                    <!-- <span>t's a gritty, dark fantasy novel that blends sharp wit, complex characters, and moral ambiguity. The story follows several protagonists, including Logen Ninefingers, a legendary warrior; Inquisitor Glokta, a crippled torturer; and Captain Jezal dan Luthar, a selfish young nobleman.</span> -->
-                    <button>Mer info</button>
-
-                </div>
-
-
-         </article>
-
-         <article class="book-article"> 
-            <figure class=" book-image"> 
-                <img src="https://www.sfbok.se/sites/default/files/styles/1000x/sfbok/sfbokbilder/727/727042.jpg?bust=1709190025&itok=HIi0g4rA" alt="Book art">
-
-               </figure> 
-            <div class="Book-info">
-                <h3>The way of kings</h3>
-                    <p>Brandon Sanderson</p>
-                    <!-- <span>The Way of Kings is a sweeping epic that intertwines honor, war, and magic. The story follows Kaladin, a former soldier enslaved; Shallan, an artist with a hidden agenda; and Dalinar, a noble haunted by visions. Each struggles in a world scarred by ancient conflict, with their paths converging toward a fate none yet understand.</span> -->
-                    <button>Mer info</button>
-
-            </div>
-
-         </article>
-
-         <article class="book-article"> 
-
-            <figure class=" book-image"> 
-                <img src="https://www.sfbok.se/sites/default/files/styles/1000x/sfbok/sfbokbilder/165/165428.jpg?bust=1490263467&itok=loxvOwKG" alt="Book art">
-
-               </figure> 
-            <div class="Book-info">
-                <h3>Homo Deus</h3>
-                <p>Yuval Harari</p>
-                <!-- <span>Homo Deus explores humanity's future, examining how advancements in technology, AI, and biotechnology might shape our evolution. Yuval Noah Harari delves into questions of consciousness, happiness, and the pursuit of immortality, suggesting that as humans master science, we may redefine life, creating a new era where Homo sapiens aspire to become god-like beings.</span> -->
-                <button>Mer info</button>
-            </div>
-         </article>
-
-        <article class="book-article"> 
-            <figure class=" book-image"> 
-                <img src="https://www.sfbok.se/sites/default/files/styles/1000x/sfbok/sfbokbilder/171/171064.jpg?bust=1508339427&itok=9RRSBCha" alt="Book art">
-
-               </figure> 
-            <div class="Book-info">
-                <h3>How to Swear</h3>
-                <p>Stephen Wildish</p>
-                <!-- <span>How to Swear is a humorous, insightful guide that explores the art and psychology of swearing. Stephen Wildish examines the origins, varieties, and social nuances of profanity, showing how different cultures and contexts shape the way we curse. With wit and charm, the book delves into why swearing can be both cathartic and surprisingly creative.</span> -->
-                <button>Mer info</button>
-
-            </div>
-
+        <article class="book-article">
+          <div class="image-container">
+            <img
+              src="https://www.sfbok.se/sites/default/files/styles/1000x/sfbok/sfbokbilder/156/156972.jpg?bust=1472653979&itok=F--oGftS"
+              alt="Cover of the book The blade itself"
+            />
+          </div>
+          <div class="book-text-container">
+            <h4>The blade itself</h4>
+            <p>Joe Abercrombie</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              voluptatem neque harum dignissimos! Dolore praesentium quo illo,
+              amet laboriosam asperiores.
+            </p>
+          </div>
+          <button>Mer info</button>
         </article>
 
-        </section>
-      
+        <article class="book-article">
+          <div class="image-container">
+            <img
+              src="https://www.sfbok.se/sites/default/files/styles/1000x/sfbok/sfbokbilder/727/727042.jpg?bust=1709190025&itok=HIi0g4rA"
+              alt="Cover of the book The way of kings"
+            />
+          </div>
+          <div class="book-text-container">
+            <h4>The way of kings</h4>
+            <p>Brandon Sanderson</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              voluptatem neque harum dignissimos! Dolore praesentium quo illo,
+              amet laboriosam asperiores.
+            </p>
+          </div>
+          <button>Mer info</button>
+        </article>
 
+        <article class="book-article">
+          <div class="image-container">
+            <img
+              src="https://www.sfbok.se/sites/default/files/styles/1000x/sfbok/sfbokbilder/165/165428.jpg?bust=1490263467&itok=loxvOwKG"
+              alt="Cover of the book Homo deus"
+            />
+          </div>
+          <div class="book-text-container">
+            <h4>Homo Deus</h4>
+            <p>Yuval Harari</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              voluptatem neque harum dignissimos! Dolore praesentium quo illo,
+              amet laboriosam asperiores.
+            </p>
+          </div>
+          <button>Mer info</button>
+        </article>
 
+        <article class="book-article">
+          <div class="image-container">
+            <img
+              src="https://www.sfbok.se/sites/default/files/styles/1000x/sfbok/sfbokbilder/171/171064.jpg?bust=1508339427&itok=9RRSBCha"
+              alt="Cover of the book How to swear"
+            />
+          </div>
+          <div class="book-text-container">
+            <h4>How to Swear</h4>
+            <p>Stephen Wildish</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              voluptatem neque harum dignissimos! Dolore praesentium quo illo,
+              amet laboriosam asperiores.
+            </p>
+          </div>
+          <button>Mer info</button>
+        </article>
+      </section>
+      <section class="contact-section">
+        <h3 id="contact">Kontakta oss</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos
+          sit nemo ipsum quam in laboriosam, porro recusandae corporis
+          quibusdam?
+        </p>
+        <form action="#" method="post">
+          <label for="namn"> Fullständiga namn </label>
+          <input
+            type="text"
+            name="namn"
+            placeholder="Fullständiga namn"
+            required
+          />
 
-        <section class="contact-section">
-            <h3 id="contact"> Kontakta oss </h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos sit nemo ipsum quam in laboriosam, porro recusandae corporis quibusdam?</p>
-            <form action="#" method="post">
-                <label for="namn"> Fullständiga namn </label>
-                <input type="text" name="namn" placeholder="Fullständiga namn" required>
+          <label for="email"> Mailadress </label>
+          <input type="email" id="email" placeholder="Mailadress" required />
 
-                <label for="mail"> Mailadress </label>
-                <input type="email" name="mail" placeholder="Mailadress" required>
+          <label for="telnumber"> Telefonnummer </label>
+          <input type="number" id="telnumber" placeholder="Telefonnummer" />
 
-                <label for="number"> Telefonnummer </label>
-                <input type="number" name="telnummer" placeholder="Telefonnummer">
+          <label for="message"> Meddelande </label>
+          <textarea id="message"> </textarea>
 
-                <label for="meddelande"> Meddelande </label>
-                <textarea name="meddelande">  </textarea>
-
-                <button type="submit"> Skicka </button>
-            </form>
-            <img src="images/contact-us-image.png" alt="En tecknad bild på en figur och brev">
-        </section>
-      
-      
-            
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-     </main>
-     <footer>
-        <!-- Social Media  -->
-        <div class="social-media">
-            <p>Följ oss</p>
-            <div class="social-content">
-                <a href="https://facebook.com" target="_blank" class="social-icon">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="https://twitter.com" target="_blank" class="social-icon">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://instagram.com" target="_blank" class="social-icon">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
+          <button type="submit">Skicka</button>
+        </form>
+        <img
+          src="images/contact-us-image.png"
+          alt="An illustration of a contact us page image"
+        />
+      </section>
+    </main>
+    <footer>
+      <div class="social-media">
+        <p>Följ oss</p>
+        <div class="social-content">
+          <a href="https://facebook.com" target="_blank" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
         </div>
-    
-        <!-- Footer länkar-->
-        <div class="footer-info">
-            <p>Aktuellt</p>
-            <p>Boktips</p> 
-            <p>Evenemang</p>
-            <p>Kontakta</p>
-        </div>
-    
-        <!-- Copyright -->
-        <div class="copyright">
-            <p>&copy; 2024 Grupp-8. All rights reserved.</p>
-        </div>
+      </div>
+      <div class="footer-info">
+        <a href="#event"> Evenemang </a>
+        <a href="#tips"> Boktips </a>
+        <a href="#news"> Aktuellt </a>
+        <a href="#contact"> Kontakt </a>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2024 Grupp-8. All rights reserved.</p>
+      </div>
     </footer>
-
-
-
-
-
-
-
-
-</body>
+  </body>
 </html>
