@@ -74,13 +74,13 @@
             <h3 id="news">Aktuellt</h3> 
             <article class="news-item"> 
                 <h4>Lorem</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, voluptas dolore...</p>
+                <p class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta voluptatem<span class="dots">...</span><span class="text-extension"> doloribus alias! Nam dolorum porro reiciendis, ipsam recusandae rem quia voluptas ullam quae at, alias, laboriosam sunt consequatur.</span></p>
                 <button>Läs mer</button>
             </article>
             <article class="news-item">
                 <h4>Lorem</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, esse doloribus...</p>
-                <button> Läs mer </button> <!-- ändrade texten från button till läs mer-->
+                <p class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta voluptatem<span class="dots">...</span><span class="text-extension"> doloribus alias! Nam dolorum porro reiciendis, ipsam recusandae rem quia voluptas ullam quae at, alias, laboriosam sunt consequatur.</span></p>
+                <button> Läs mer </button> 
             </article>
         </section>
       
@@ -90,25 +90,29 @@
       
         
         <section class="book-section">
-            <h3 id="tips"> Veckans boktips!</h3>
+            <h3 id="tips"> Veckans boktips</h3>
 
          <article class="book-article">
             <div class="image-container">  
                 <img src="https://www.sfbok.se/sites/default/files/styles/1000x/sfbok/sfbokbilder/156/156972.jpg?bust=1472653979&itok=F--oGftS" alt="Book art">
             </div>
+            <div class="book-text-container">
                     <h4>The blade itself</h4>
                     <p>Joe Abercrombie</p>
-                    <p> Lorem </p>
-                    <button>Mer info</button>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatem neque harum dignissimos! Dolore praesentium quo illo, amet laboriosam asperiores. </p>
+            </div>
+            <button>Mer info</button>    
          </article>
 
          <article class="book-article">
             <div class="image-container">   
                 <img src="https://www.sfbok.se/sites/default/files/styles/1000x/sfbok/sfbokbilder/727/727042.jpg?bust=1709190025&itok=HIi0g4rA" alt="Book art">
             </div>
+            <div class="book-text-container">
                 <h4>The way of kings</h4>
                 <p>Brandon Sanderson</p>
-                <p> Lorem </p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatem neque harum dignissimos! Dolore praesentium quo illo, amet laboriosam asperiores. </p>
+            </div>    
                 <button>Mer info</button>
          </article>
 
@@ -116,19 +120,23 @@
             <div class="image-container">  
                 <img src="https://www.sfbok.se/sites/default/files/styles/1000x/sfbok/sfbokbilder/165/165428.jpg?bust=1490263467&itok=loxvOwKG" alt="Book art">
             </div>
+            <div class="book-text-container">
                 <h4>Homo Deus</h4>
                 <p>Yuval Harari</p>
-                <p> Lorem </p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatem neque harum dignissimos! Dolore praesentium quo illo, amet laboriosam asperiores. </p>
+            </div>    
                 <button>Mer info</button>
          </article>
 
         <article class="book-article"> 
             <div class="image-container">
                 <img src="https://www.sfbok.se/sites/default/files/styles/1000x/sfbok/sfbokbilder/171/171064.jpg?bust=1508339427&itok=9RRSBCha" alt="Book art">
-            </div>    
+            </div>
+            <div class="book-text-container">    
                 <h4>How to Swear</h4>
                 <p>Stephen Wildish</p>
-                <p> Lorem </p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatem neque harum dignissimos! Dolore praesentium quo illo, amet laboriosam asperiores. </p>
+            </div>    
                 <button>Mer info</button>
         </article>
 
@@ -208,13 +216,11 @@
     
         <!-- Footer länkar-->
         <div class="footer-info">
-            <p>Aktuellt</p>
-            <p>Boktips</p> 
-            <p>Evenemang</p>
-            <p>Kontakta</p>
+            <a href="#event"> Evenemang </a>
+            <a href="#tips"> Boktips </a>
+            <a href="#news"> Aktuellt </a>
+            <a href="#contact"> Kontakt </a>
         </div>
-    
-        <!-- Copyright -->
         <div class="copyright">
             <p>&copy; 2024 Grupp-8. All rights reserved.</p>
         </div>
